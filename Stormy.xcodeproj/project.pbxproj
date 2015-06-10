@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9863C5581B28973B00D33D46 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9863C5571B28973B00D33D46 /* CurrentWeather.swift */; };
 		98FA42541B27489F007DA684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FA42531B27489F007DA684 /* AppDelegate.swift */; };
 		98FA42561B27489F007DA684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FA42551B27489F007DA684 /* ViewController.swift */; };
 		98FA42591B27489F007DA684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FA42571B27489F007DA684 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9863C5571B28973B00D33D46 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		98FA424E1B27489F007DA684 /* Stormy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stormy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98FA42521B27489F007DA684 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98FA42531B27489F007DA684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				98FA42531B27489F007DA684 /* AppDelegate.swift */,
 				98FA42551B27489F007DA684 /* ViewController.swift */,
+				9863C5571B28973B00D33D46 /* CurrentWeather.swift */,
 				98FA42571B27489F007DA684 /* Main.storyboard */,
 				98FA425A1B27489F007DA684 /* Images.xcassets */,
 				98FA425C1B27489F007DA684 /* LaunchScreen.xib */,
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98FA42561B27489F007DA684 /* ViewController.swift in Sources */,
+				9863C5581B28973B00D33D46 /* CurrentWeather.swift in Sources */,
 				98FA42541B27489F007DA684 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +417,7 @@
 				98FA426F1B2748A0007DA684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98FA42701B2748A0007DA684 /* Build configuration list for PBXNativeTarget "StormyTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				98FA42721B2748A0007DA684 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
